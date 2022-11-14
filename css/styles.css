@@ -613,6 +613,9 @@ address {
 
 .projects-item {
   flex-basis: calc((100% - 30px * 8) / 9);
+  box-shadow: none;
+
+  transition: box-shadow 250ms var(--animation-timing-function);
 }
 
 .projects-item:hover {
